@@ -808,6 +808,7 @@ function Library:Create(xHubName,xGameName)
                     Size()
                 else 
                     opened = true 
+                    DropElements(false)
                     DropList.Visible = true
                     DropList:TweenSize(UDim2.new(0, 408, 0, DropListLayout.AbsoluteContentSize.Y), "InOut", "Linear", 0.1)
                     Tab.CanvasSize = UDim2.new(0,0,0,DropListLayout.AbsoluteContentSize.Y + 100)
