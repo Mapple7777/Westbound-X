@@ -173,7 +173,7 @@ function Library:Create(xHubName,xGameName)
         local TabButton = Instance.new("TextButton")
 
         function Size()
-            Tab.CanvasSize = UDim2.new(0, 0, 0, TabListLayout.AbsoluteContentSize.Y)
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabListLayout.AbsoluteContentSize.Y + 35)
         end
 
         Tab.Name = "Tab"
