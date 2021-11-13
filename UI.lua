@@ -210,7 +210,7 @@ function Library:Create(xHubName,xGameName)
             TabButton.BackgroundColor3 = Color3.fromRGB(60, 145, 255)
             TabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
         else 
-            TabButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+            TabButton.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
             TabButton.TextColor3 = Color3.fromRGB(190, 190, 190)
         end
 
@@ -218,7 +218,7 @@ function Library:Create(xHubName,xGameName)
             Size()
             for i,v in pairs(ActualSide:GetChildren()) do 
                 if v:IsA("TextButton") then 
-                    v.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+                    v.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
                     v.TextColor3 = Color3.fromRGB(190, 190, 190)
                 end
             end
@@ -757,7 +757,7 @@ function Library:Create(xHubName,xGameName)
 
             DropList.Name = "DropList"
             DropList.Parent = DropdownFrame
-            DropList.BackgroundColor3 = Color3.fromRGB(40, 42, 60)
+            DropList.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
             DropList.BackgroundTransparency = 1.000
             DropList.BorderSizePixel = 0
             DropList.ClipsDescendants = true
